@@ -4,7 +4,7 @@ private class AccountAutomationsTest{
         Account acc = new Account(Name = 'My Test Account');
         insert acc;
         acc = AccountAutomations.setDefaultDescription(acc);
-        System.assertEquals('Default description', acc.Description, 'When description is null, it is updated to Default description');
+        System.assertEquals('Default description@', acc.Description, 'When description is null, it is updated to Default description');
 
         acc.Description = 'New Description Manual';
         
