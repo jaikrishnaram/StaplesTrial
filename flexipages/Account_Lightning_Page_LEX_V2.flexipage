@@ -3,7 +3,11 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>force:detailPanel</componentName>
+                <componentInstanceProperties>
+                    <name>flavor</name>
+                    <value>list</value>
+                </componentInstanceProperties>
+                <componentName>wits:newsPanel</componentName>
             </componentInstance>
         </itemInstances>
         <name>header</name>
