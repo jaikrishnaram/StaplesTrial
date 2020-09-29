@@ -28,9 +28,9 @@ private class NewAccountAutomationsTest {
         insert acc;
         acc = NewAccountAutomations.setDefaultShippingAddress(acc);
 
-        System.assertEquals('111 W Illinois St', acc.ShippingStreet, 'Default ShippingStreet is 111 W Illinois St');
-        System.assertEquals('Chicago', acc.ShippingState, 'Default Shippingtate is Chicago');
-        System.assertEquals('60654', acc.ShippingPostalCode, 'Default ShippingPostalCode is 60654');
+        System.assertEquals('500 Staples Drive', acc.ShippingStreet, 'Default ShippingStreet is 500 Staples Drive');
+        System.assertEquals('Boston', acc.ShippingState, 'Default Shippingtate is Boston');
+        System.assertEquals('01702', acc.ShippingPostalCode, 'Default ShippingPostalCode is 01702');
 
     }
 
