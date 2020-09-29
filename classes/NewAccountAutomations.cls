@@ -14,9 +14,9 @@ public class NewAccountAutomations {
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
-        a.shippingstreet = '111 W Illinois St'; 
-        a.shippingstate = 'Chicago';
-        a.shippingpostalcode ='60654';
+        a.shippingstreet = '500 Staples Drive'; 
+        a.shippingstate = 'Boston';
+        a.shippingpostalcode ='01702';
         return a;
     }
     public static Account setDefaultPhone(Account a) {
