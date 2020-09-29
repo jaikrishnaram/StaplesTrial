@@ -8,9 +8,9 @@ public class NewAccountAutomations {
     }
 
     public static Account setDefaultBillingAddress(Account a){
-        a.billingstreet = 'Basauri, 6'; 
-        a.billingstate = 'Madrid'; 
-        a.billingpostalcode ='28023'; 
+        a.billingstreet = '151 Milk St'; 
+        a.billingstate = 'Massachusetts'; 
+        a.billingpostalcode ='01581'; 
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){
